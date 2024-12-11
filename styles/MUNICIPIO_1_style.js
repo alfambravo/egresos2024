@@ -11,14 +11,14 @@ var style_MUNICIPIO_1 = function(feature, resolution){
     size = 0;
     var labelFont = "13.0px \'Open Sans\', sans-serif";
     var labelFill = "#323232";
-    var bufferColor = "#fafafa";
-    var bufferWidth = 1.0;
+    var bufferColor = "#ffffff";
+    var bufferWidth = 1.5;
     var textAlign = "left";
     var offsetX = 8;
     var offsetY = 3;
     var placement = 'point';
-    if (feature.get("NOMBRE") !== null) {
-        labelText = String(feature.get("NOMBRE"));
+    if ("" !== null) {
+        labelText = String("");
     }
     var style = [ new ol.style.Style({
         stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.748}),fill: new ol.style.Fill({color: 'rgba(145,82,45,0.0)'}),

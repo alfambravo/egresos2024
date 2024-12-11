@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_Egresos2024_v23_2 = function(feature, resolution){
+var style_Egresos2024_v23_3 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
